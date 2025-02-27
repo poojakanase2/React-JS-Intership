@@ -123,6 +123,7 @@ const Blog = () => {
         </div>
 
       </div>
+      <br></br>
       <Footer />
     </div>
   );
