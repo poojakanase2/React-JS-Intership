@@ -205,7 +205,6 @@
   width: 30%;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
  
 }
 
@@ -221,10 +220,13 @@
 .btn-ReadMore {
   background-color: rgb(243, 238, 118);
   width: 30%;
-  height: 0%;
+  height: 1%;
   color: black;
 }
 
+
+.card:hover{
+transform: scale(1.05);}
 
 
 
