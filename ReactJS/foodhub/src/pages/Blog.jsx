@@ -25,13 +25,13 @@ const Blog = () => {
         <br></br>
         <br></br>
 
-        <h2 class="title">Recent Posts</h2>
+        <h1 class="title">Recent Posts</h1>
 
-        <div className="card-container " >
+        <div className="card-container " >       
 
-          <div className="card" >
-            <img src={Blog1} width={400} alt="" class="card-img-top" />
-            <div class="card-body">
+          <div className="card">
+            <img className="card-img-top" src={Blog1} height={200} alt="Card image cap" />
+            <div className="card-body">
               <div>
                 <h3>What is the Most Popular Indian Foods in UK</h3>
               </div>
@@ -43,9 +43,8 @@ const Blog = () => {
             </div>
           </div>
 
-
           <div className="card">
-            <img src={Blog2} width={400} alt="" className="card-img-top" />
+            <img className="card-img-top" src={Blog2} height={200} alt="Card image cap" />
             <div className="card-body">
               <div>
                 <h3>Top 5 Best Fish and Chips in Carlisle: Must-Try Chippies Loved by Locals</h3>
@@ -59,8 +58,9 @@ const Blog = () => {
             </div>
           </div>
 
+
           <div className="card">
-            <img src={Blog3} width={400} alt="" className="card-img-top" />
+            <img className="card-img-top" src={Blog3} height={200} alt="Card image cap" />
             <div className="card-body">
               <div>
                 <h3>Why garlic bread should be your go-to comfort food</h3>
@@ -73,53 +73,55 @@ const Blog = () => {
               <a href="" className="btn btn-outline-danger btn-sm"><i className="far fa-heart"></i></a>
             </div>
           </div>
-
-        </div>
-      </div>
-
-      <br></br>
-      <div className="card-container " >
-        <div className="card" >
-          <img src={Blog4} width={400} alt="" class="card-img-top" />
-          <div class="card-body">
-            <div>
-              <h3>Exploring sides and drinks that pair well with Fish and Chips and why they work so well together!</h3>
-            </div>
-            <div>
-              <p className="card-text">Fish and chips is a classic British dish that combines crispy, battered fish with salty yet fluffy chips. It's a meal many love for a good reason—the combination of flavours and textures is unbeatable. But what are the best foods and drinks to pair with this iconic dish? Here are</p>
-            </div>
-            <Button variant="primary" className="btn-ReadMore">Read More</Button>
-            <a href="" className="btn btn-outline-danger btn-sm"><i className="far fa-heart"></i></a>
-          </div>
         </div>
 
+        <br></br>
+        <div className="card-container " >
 
-        <div className="card">
-          <img src={Blog5} width={400} alt="" className="card-img-top" />
-          <div className="card-body">
-            <div>
-              <h3>Top 4 Burger Takeaways That You Have to Try in Congleton</h3>
-            </div>
-            <div>
-              <p className="card-text">Juicy, affordable, and above all, they make me happy. We can give a million more reasons for why we love burgers so much, but let’s keep that for another day. If you are in or around Congleton, you must definitely try these burger takeaways in Foodhub that will make you </p>
-            </div>
-            <Button variant="primary" className="btn-ReadMore">Read More</Button>
-            <a href="" className="btn btn-outline-danger btn-sm"><i className="far fa-heart"></i></a>
-          </div>
-        </div>
 
-        <div className="card">
-          <img src={Blog6} width={400} alt="" className="card-img-top" />
-          <div className="card-body">
-            <div>
-              <h3>Top 4 Chinese Takeaways in Redcar</h3>
+          <div className="card">
+            <img className="card-img-top" src={Blog4} height={200} alt="Card image cap" />
+            <div className="card-body">
+              <div>
+                <h3>Exploring sides and drinks that pair well with Fish and Chips and why they work so well together!</h3>
+              </div>
+              <div>
+                <p className="card-text">Fish and chips is a classic British dish that combines crispy, battered fish with salty yet fluffy chips. It's a meal many love for a good reason—the combination of flavours and textures is unbeatable. But what are the best foods and drinks to pair with this iconic dish? Here are</p>
+              </div>
+              <Button variant="primary" className="btn-ReadMore">Read More</Button>
+              <a href="" className="btn btn-outline-danger btn-sm"><i className="far fa-heart"></i></a>
             </div>
-            <div>
-              <p className="card-text">If you are looking for ethnic cuisines, chances are you usually end up with very few options, and Chinese will be among them - one that has taken over the world by storm. Today, Chinese food has almost become a way of life with dishes such as Fried rice, Chow</p>
-            </div>
-            <Button variant="primary" className="btn-ReadMore">Read More</Button>
-            <a href="" className="btn btn-outline-danger btn-sm"><i className="far fa-heart"></i></a>
           </div>
+
+
+          <div className="card">
+            <img className="card-img-top" src={Blog5} height={200}  alt="Card image cap" />
+            <div className="card-body">
+              <div>
+                <h3>Top 4 Burger Takeaways That You Have to Try in Congleton</h3>
+              </div>
+              <div>
+                <p className="card-text">Juicy, affordable, and above all, they make me happy. We can give a million more reasons for why we love burgers so much, but let’s keep that for another day. If you are in or around Congleton, you must definitely try these burger takeaways in Foodhub that will make you </p>
+              </div>
+              <Button variant="primary" className="btn-ReadMore">Read More</Button>
+              <a href="" className="btn btn-outline-danger btn-sm"><i className="far fa-heart"></i></a>
+            </div>
+          </div>
+
+          <div className="card">
+            <img className="card-img-top" src={Blog6} height={200} alt="Card image cap" />
+            <div className="card-body">
+              <div>
+                <h3>Top 4 Chinese Takeaways in Redcar</h3>
+              </div>
+              <div>
+                <p className="card-text">If you are looking for ethnic cuisines, chances are you usually end up with very few options, and Chinese will be among them - one that has taken over the world by storm. Today, Chinese food has almost become a way of life with dishes such as Fried rice, Chow</p>
+              </div>
+              <Button variant="primary" className="btn-ReadMore">Read More</Button>
+              <a href="" className="btn btn-outline-danger btn-sm"><i className="far fa-heart"></i></a>
+            </div>
+          </div>
+
         </div>
 
       </div>
